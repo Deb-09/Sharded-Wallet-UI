@@ -1,16 +1,30 @@
-# React + Vite
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📂 Frontend Repository README
+Create a file named exactly `README.md` in your **frontend root folder** and copy this content directly:
 
-Currently, two official plugins are available:
+```markdown
+# Distributed Horizontally Scaled Wallet UI (Frontend)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A sleek, lightweight, and modern **React** Single Page Application (SPA) designed to demonstrate the live processing guarantees, state changes, and atomicity metrics of the backend Distributed Sharded Wallet System.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💎 Features & Screen Flow
 
-## Expanding the ESLint configuration
+The interface provides a highly visual tracking workspace to observe advanced system design concepts in action:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Secure Authentication Pipeline:** Seamless user creation and login with instant programmatic credit of a `$1,000.00` structural test balance.
+* **UPI-Style Peer Discovery:** Live endpoint resolution to lookup peer wallets across sharded database spaces transparently using human-readable tags (e.g., `deb@wallet`).
+* **Real-time Saga Tracking Panel:** When processing a fund transfer, the application explicitly registers custom UUID **Idempotency Keys** and pulls status hooks sequentially to visualize the transactional phase transit (`INITIATED` ──► `DEBITED` ──► `COMPLETED`).
+* **Granular Audit Ledger:** Dedicated accounting visualization page fetching isolated shard histories detailing historic operations, transactional types (`DEBIT`, `CREDIT`, `ROLLBACK`), and exact chronologically precise account snapshot balances.
+
+---
+
+## 🛠️ Tech Stack
+* **React 18** (Functional architectures with Hooks)
+* **Vite** (Optimized native ESM asset piping compiler)
+* **Axios** (Configured request client injecting runtime JWT interceptors)
+* **React Router DOM** (Declarative client routing mapping protected application paths)
+
+---
