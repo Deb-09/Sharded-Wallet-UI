@@ -1,9 +1,4 @@
----
 
-## 📂 Frontend Repository README
-Create a file named exactly `README.md` in your **frontend root folder** and copy this content directly:
-
-```markdown
 # Distributed Horizontally Scaled Wallet UI (Frontend)
 
 A sleek, lightweight, and modern **React** Single Page Application (SPA) designed to demonstrate the live processing guarantees, state changes, and atomicity metrics of the backend Distributed Sharded Wallet System.
